@@ -134,3 +134,13 @@ main .backgroundImg {
   justify-content: space-between;
   flex-direction: column;
 }
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.companies {
+  width: 100%;
+  height: 100px;
+}

@@ -61,3 +61,8 @@ header .rightSec {
 .rightSec a {
   color: white;
 }
+main {
+  height: 665px;
+  width: 100%;
+  background-color: var(--black);
+}

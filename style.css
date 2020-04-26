@@ -7,6 +7,7 @@
 :root {
   --black: #2a2a2a;
   --green: #43d7b0;
+  --darkGreen: #137d60;
   --verHr: #383839;
 }
 header {
@@ -65,4 +66,71 @@ main {
   height: 665px;
   width: 100%;
   background-color: var(--black);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .content {
+  height: 600px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .col {
+  width: 750px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main h1 {
+  font-size: 80px;
+  line-height: 74px;
+  font-weight: 600;
+  font-family: "Barlow Condensed";
+}
+main h2 {
+  font-weight: 400;
+}
+main .btnRow {
+  width: 475px;
+  height: 40px;
+}
+button {
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#btnTopCoder {
+  width: 210px;
+  height: 40px;
+  background-color: white;
+  color: var(--darkGreen);
+}
+#btnViewEnterpriseOfferings {
+  width: 260px;
+  height: 40px;
+  background-color: var(--black);
+  color: white;
+  border: 2px solid white;
+}
+main img {
+  width: 500px;
+  height: 680px;
+}
+main .backgroundImg {
+  height: 680px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }

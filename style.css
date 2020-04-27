@@ -157,3 +157,7 @@ section {
   height: 40px;
   width: 140px;
 }
+.covidInformation {
+  height: 500px;
+  width: 100%;
+}

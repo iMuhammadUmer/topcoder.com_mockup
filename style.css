@@ -210,3 +210,7 @@ section {
 #btnCovid:hover {
   background-color: var(--green);
 }
+.solutions {
+  width: 100%;
+  height: 910px;
+}

@@ -9,6 +9,8 @@
   --green: #43d7b0;
   --darkGreen: #137d60;
   --verHr: #383839;
+  --silver: #f4f4f4;
+  --white: #fafafb;
 }
 header {
   width: 100%;
@@ -108,7 +110,9 @@ button {
   font-size: 14px;
   line-height: 40px;
   font-weight: 700;
+  color: var(--white);
   cursor: pointer;
+  text-transform: uppercase;
 }
 #btnTopCoder {
   width: 210px;
@@ -160,4 +164,49 @@ section {
 .covidInformation {
   height: 500px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.covidInformation .content {
+  width: 95%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--silver);
+  border-radius: 10px;
+}
+.covidInformation img {
+  border-radius: 10px;
+  margin-right: 4em;
+}
+.covidInformation h1 {
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed";
+}
+.covidInformation .col {
+  width: 467px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+.covidInformation p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--black);
+  margin: 1em 0 1em 0;
+}
+#btnCovid {
+  width: 250px;
+  height: 40px;
+  background-color: var(--darkGreen);
+  transition: all 0.3s ease-out 0s;
+}
+#btnCovid:hover {
+  background-color: var(--green);
 }

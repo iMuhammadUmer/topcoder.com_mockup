@@ -204,13 +204,43 @@ section {
 #btnCovid {
   width: 250px;
   height: 40px;
+}
+.btnGreen {
   background-color: var(--darkGreen);
   transition: all 0.3s ease-out 0s;
 }
-#btnCovid:hover {
+.btnGreen:hover {
   background-color: var(--green);
+}
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  font-family: "Barlow Condensed";
+  text-transform: uppercase;
 }
 .solutions {
   width: 100%;
-  height: 910px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.solutions h3 {
+  width: 55%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--black);
+  text-align: center;
+  margin: 0.5em 0 0.5em 0;
+}
+#exploreSolutions {
+  height: 40px;
+  width: 192px;
+}
+.solutions img {
+  width: 100%;
+  margin-top: 1em;
 }

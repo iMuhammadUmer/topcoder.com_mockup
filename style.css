@@ -11,6 +11,7 @@
   --verHr: #383839;
   --silver: #f4f4f4;
   --white: #fafafb;
+  --blue: #186a9e;
 }
 header {
   width: 100%;
@@ -247,4 +248,9 @@ h1 {
 .caseStudy {
   height: 1330px;
   width: 100%;
+  background-color: var(--blue);
+}
+.caseStudy .row {
+  width: 80%;
+  height: 330px;
 }

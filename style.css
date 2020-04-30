@@ -372,4 +372,33 @@ h1 {
 .ebook .content {
   width: 80%;
   height: 185px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--silver);
+}
+.ebook .contentArea {
+  height: 110px;
+  width: 680px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contentArea p {
+  font-size: 12px;
+  height: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+.contentArea h1 {
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.contentArea a {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--green);
+  margin-top: 2em;
 }

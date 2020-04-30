@@ -310,3 +310,7 @@ h1 {
   font-weight: 700;
   color: var(--green);
 }
+.caseStudy .row2 {
+  height: 400px;
+  width: 80%;
+}

@@ -425,3 +425,7 @@ h1 {
   text-decoration: underline;
   margin-left: 0.3em;
 }
+footer {
+  height: 378px;
+  width: 100%;
+}

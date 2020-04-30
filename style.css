@@ -12,6 +12,7 @@
   --silver: #f4f4f4;
   --white: #fafafb;
   --blue: #186a9e;
+  --grey: #555555;
 }
 header {
   width: 100%;
@@ -401,4 +402,9 @@ h1 {
   font-weight: 700;
   color: var(--green);
   margin-top: 2em;
+}
+.contactUs {
+  height: 60px;
+  width: 100%;
+  background-color: var(--grey);
 }

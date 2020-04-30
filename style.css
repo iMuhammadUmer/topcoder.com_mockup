@@ -299,12 +299,12 @@ h1 {
   width: 197px;
   height: 52px;
 }
-.caseStudy .col2 .content p {
+.caseStudy p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
 }
-.caseStudy .col2 .content a {
+.caseStudy a {
   font-size: 15px;
   line-height: 26px;
   font-weight: 700;
@@ -312,5 +312,53 @@ h1 {
 }
 .caseStudy .row2 {
   height: 400px;
-  width: 80%;
+  width: 84%;
+  margin-top: 2em;
+  margin-left: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+.caseStudy .row2 .col1 {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.caseStudy .row2 .col1 .content {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: var(--black);
+}
+.caseStudy .row2 .col2 {
+  width: 415px;
+  height: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: transparent;
+}
+.row2 .col2 #img1 {
+  width: 415px;
+  height: 200px;
+  background-color: white;
+  background-image: url(images/spacenet-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+.row2 .col2 #img2 {
+  width: 310px;
+  height: 160px;
+  background-color: whitesmoke;
+  background-image: url(images/ms-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
 }

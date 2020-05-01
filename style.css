@@ -13,6 +13,8 @@
   --white: #fafafb;
   --blue: #186a9e;
   --grey: #555555;
+  --footerLinksHover: #d4d4d4;
+  --footerAddress: #aaaaaa;
 }
 header {
   width: 100%;
@@ -436,13 +438,61 @@ footer {
 }
 .linksRow {
   height: 220px;
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--darkGreen);
 }
 .linksCol {
   width: 225px;
   height: 220px;
-  background-color: yellow;
+}
+ul #heading {
+  height: 23px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--footerAddress);
+  margin-bottom: 1em;
+}
+ul li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: white;
+}
+li a {
+  color: inherit;
+  margin-bottom: 0.3em;
+}
+li a:hover {
+  color: var(--footerLinksHover);
+}
+#company {
+  width: 140px;
+}
+#contact {
+  width: 490px;
+  height: 120px;
+}
+.contactDetails {
+  height: 40px;
+  width: 490px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--footerAddress);
+  margin-bottom: 1.4em;
+}
+.contactDetails .content {
+  height: 40px;
+  width: 230px;
+}
+.contactDetails p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.contactDetails a {
+  color: inherit;
 }

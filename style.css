@@ -431,7 +431,7 @@ footer {
   height: 378px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--black);
@@ -495,4 +495,34 @@ li a:hover {
 }
 .contactDetails a {
   color: inherit;
+}
+.copyright {
+  width: 95%;
+  height: 70px;
+  border-top: 1px solid var(--footerAddress);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--footerAddress);
+}
+.copyright a {
+  color: var(--footerAddress);
+}
+.copyright a:hover {
+  color: white;
+}
+.copyright .content {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialNav {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
 }
